@@ -15288,7 +15288,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   function srcAppPagesHomeJsonFilesAppBlogComponentv8Json(module) {
-    module.exports = JSON.parse("{\"link_image\":\"https://app.cheetaho.com/storage/2020/07/2971/0b615d21-fa19-47fa-a5e6-cbad660cb348/optimized/photo-1523821741446-edb2b68bb7a0\",\"title\":\"HELLO\",\"sub_title\":\"Welcome to this new features\",\"text_button\":\"start building\",\"link_button\":\"https://www.ebay.com\"}");
+    module.exports = JSON.parse("{\"link_image\":\"https://app.cheetaho.com/storage/2020/07/2971/d5467a9d-4f27-41cc-a753-04778da94a2a/optimized/photo-1523821741446-edb2b68bb7a0.\",\"title\":\"MARADONA\",\"sub_title\":\"Welcome to this new features\",\"text_button\":\"start building\",\"link_button\":\"https://www.ebay.com\"}");
     /***/
   },
 
