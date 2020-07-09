@@ -7063,7 +7063,7 @@ module.exports = JSON.parse("{\"name\":\"footer-4\",\"route\":\"../../footer/foo
 /*! exports provided: menuIteam, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"menuIteam\":[{\"nameComponant\":\"home\",\"nameMenuIteam\":\"home\",\"nameMenuComponant\":\"home\",\"routeMenuIteam\":\"home\",\"activationMenuIteam\":true},{\"nameComponant\":\"contact\",\"nameMenuIteam\":\"contact\",\"nameMenuComponant\":\"contact\",\"routeMenuIteam\":\"contact\",\"activationMenuIteam\":true},{\"nameComponant\":\"about\",\"nameMenuIteam\":\"about\",\"nameMenuComponant\":\"about\",\"routeMenuIteam\":\"about\",\"activationMenuIteam\":true},{\"nameComponant\":\"service\",\"nameMenuIteam\":\"service\",\"nameMenuComponant\":\"service\",\"routeMenuIteam\":\"service\",\"activationMenuIteam\":true},{\"nameComponant\":\"ici\",\"nameMenuIteam\":\"ici\",\"nameMenuComponant\":\"ici\",\"routeMenuIteam\":\"ici\",\"activationMenuIteam\":true}]}");
+module.exports = JSON.parse("{\"menuIteam\":[{\"nameComponant\":\"home\",\"nameMenuIteam\":\"home\",\"nameMenuComponant\":\"home\",\"routeMenuIteam\":\"home\",\"activationMenuIteam\":true},{\"nameComponant\":\"contact\",\"nameMenuIteam\":\"contact\",\"nameMenuComponant\":\"contact\",\"routeMenuIteam\":\"contact\",\"activationMenuIteam\":true},{\"nameComponant\":\"about\",\"nameMenuIteam\":\"about\",\"nameMenuComponant\":\"about\",\"routeMenuIteam\":\"about\",\"activationMenuIteam\":true},{\"nameComponant\":\"service\",\"nameMenuIteam\":\"service\",\"nameMenuComponant\":\"service\",\"routeMenuIteam\":\"service\",\"activationMenuIteam\":true},{\"nameComponant\":\"ici\",\"nameMenuIteam\":\"ici\",\"nameMenuComponant\":\"ici\",\"routeMenuIteam\":\"ici\",\"activationMenuIteam\":false}]}");
 
 /***/ }),
 
@@ -7577,7 +7577,7 @@ module.exports = JSON.parse("{\"background_image\":\"https://app.cheetaho.com/st
 /*! exports provided: link_image, title, sub_title, text_button, link_button, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"link_image\":\"https://app.cheetaho.com/storage/2020/07/2971/5914d901-8353-48c3-8f1c-3531243861dd/optimized/photo-1523821741446-edb2b68bb7a0.\",\"title\":\"Aubmov 2\",\"sub_title\":\"Welcome to this new features\",\"text_button\":\"start building\",\"link_button\":\"https://www.ebay.com\"}");
+module.exports = JSON.parse("{\"link_image\":\"https://app.cheetaho.com/storage/2020/07/2971/2beecf9b-b3f4-4454-b576-b90bdd0eaaa3/optimized/f13215a3276ab6f25339d39221caa4aa.jpg\",\"title\":\"DARK MODE\",\"sub_title\":\"Welcome USER\",\"text_button\":\"MY WEBSITE\",\"link_button\":\"https://www.tlaqliacms.tk/\"}");
 
 /***/ }),
 
