@@ -14829,7 +14829,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   function srcAppPagesContactJsonFilesAppBlogComponentv15Json(module) {
-    module.exports = JSON.parse("{\"title\":\"Contact\"}");
+    module.exports = JSON.parse("{\"title\":\"Contact us V2\"}");
     /***/
   },
 
@@ -15262,7 +15262,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   function srcAppPagesHomeJsonFilesAppBlogComponentv8Json(module) {
-    module.exports = JSON.parse("{\"link_image\":\"https://app.cheetaho.com/storage/2020/07/2971/512f41ca-0d9f-4b9d-b46f-d5478e6e1c72/optimized/1594306372_ayoub-min.jpg\",\"title\":\"TATLAQLIACMS\",\"sub_title\":\"Welcome USER\",\"text_button\":\"MY WEBSITE\",\"link_button\":\"https://www.tlaqliacms.tk/\"}");
+    module.exports = JSON.parse("{\"link_image\":\"https://app.cheetaho.com/storage/2020/07/2971/74892879-5db5-47fa-aa2d-9f1485d59e09/optimized/1594306372_ayoub-min.jpg\",\"title\":\"TATLAQLIACMS\",\"sub_title\":\"Welcome\",\"text_button\":\"MY WEBSITE\",\"link_button\":\"https://www.tlaqliacms.tk/\"}");
     /***/
   },
 
