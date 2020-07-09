@@ -15615,12 +15615,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _angular_router__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
     /*! @angular/router */
     "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
-    /* harmony import */
-
-
-    var _components_blog_component_blog_component_v4_blog_component_v4_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
-    /*! ../../components/blog_component/blog_component_v4/blog_component_v4.component */
-    "./src/app/components/blog_component/blog_component_v4/blog_component_v4.component.ts");
 
     var ServiceComponent =
     /*#__PURE__*/
@@ -15664,9 +15658,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     ServiceComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
       type: ServiceComponent,
       selectors: [["app-service"]],
-      decls: 7,
+      decls: 6,
       vars: 0,
-      consts: [[1, ""], [1, "app-blog-componentv15"], [1, "app-servicev2"], [1, "app-blog-componentv4"], [1, "d-none"], [1, "app-blog-componentv11"], [1, "app-servicev1"]],
+      consts: [[1, ""], [1, "app-blog-componentv15"], [1, "app-servicev2"], [1, "d-none"], [1, "app-blog-componentv11"], [1, "app-servicev1"]],
       template: function ServiceComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -15675,20 +15669,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "div", 2);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "div", 3);
-
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 4);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "div", 4);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "div", 5);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "div", 6);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         }
       },
-      directives: [_components_blog_component_blog_component_v15_blog_component_v15_component__WEBPACK_IMPORTED_MODULE_6__["BlogComponentV15"], _components_service_service_v2_service_v2_component__WEBPACK_IMPORTED_MODULE_8__["ServiceV2"], _components_blog_component_blog_component_v4_blog_component_v4_component__WEBPACK_IMPORTED_MODULE_10__["BlogComponentV4"], _components_blog_component_blog_component_v11_blog_component_v11_component__WEBPACK_IMPORTED_MODULE_5__["BlogComponentV11"], _components_service_service_v1_service_v1_component__WEBPACK_IMPORTED_MODULE_7__["ServiceV1"]],
+      directives: [_components_blog_component_blog_component_v15_blog_component_v15_component__WEBPACK_IMPORTED_MODULE_6__["BlogComponentV15"], _components_service_service_v2_service_v2_component__WEBPACK_IMPORTED_MODULE_8__["ServiceV2"], _components_blog_component_blog_component_v11_blog_component_v11_component__WEBPACK_IMPORTED_MODULE_5__["BlogComponentV11"], _components_service_service_v1_service_v1_component__WEBPACK_IMPORTED_MODULE_7__["ServiceV1"]],
       styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL3NlcnZpY2Uvc2VydmljZS5jb21wb25lbnQuY3NzIn0= */"]
     });
     /*@__PURE__*/
