@@ -15310,7 +15310,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   function srcAppPagesHomeJsonFilesAppBlogComponentv8Json(module) {
-    module.exports = JSON.parse("{\"link_image\":\"https://app.cheetaho.com/storage/2020/07/2971/6fa859a6-4cc7-4d1f-bf94-17d877d9486a/optimized/1594306372_ayoub-min.jpg\",\"title\":\"DARK MODE\",\"sub_title\":\"Welcome USER\",\"text_button\":\"MY WEBSITE\",\"link_button\":\"https://www.tlaqliacms.tk/\"}");
+    module.exports = JSON.parse("{\"link_image\":\"https://app.cheetaho.com/storage/2020/07/2971/d1deceac-c9a0-4661-8b08-9e24d84915c0/optimized/1594306372_ayoub-min.jpg\",\"title\":\"DARK MODE LAST PUSH\",\"sub_title\":\"Welcome USER\",\"text_button\":\"MY WEBSITE\",\"link_button\":\"https://www.tlaqliacms.tk/\"}");
     /***/
   },
 
