@@ -1714,7 +1714,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "input", 70);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "input", 71);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("change", function AppComponent_div_30_div_3_Template_input_change_1_listener() {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r24);
@@ -1736,7 +1736,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       if (rf & 1) {
         var _r27 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "input", 71);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "input", 72);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("change", function AppComponent_div_30_ng_template_4_Template_input_change_0_listener() {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r27);
@@ -1756,17 +1756,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       if (rf & 1) {
         var _r29 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 61);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 62);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 62);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 63);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 12);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, AppComponent_div_30_div_3_Template, 2, 0, "div", 63);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, AppComponent_div_30_div_3_Template, 2, 0, "div", 64);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, AppComponent_div_30_ng_template_4_Template, 1, 0, "ng-template", null, 64, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplateRefExtractor"]);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, AppComponent_div_30_ng_template_4_Template, 1, 0, "ng-template", null, 65, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplateRefExtractor"]);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 65);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 66);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7);
 
@@ -1776,9 +1776,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 66);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 67);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "i", 67);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "i", 68);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AppComponent_div_30_Template_i_click_9_listener() {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r29);
@@ -1794,7 +1794,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "div", 68);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "div", 69);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AppComponent_div_30_Template_div_click_10_listener() {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r29);
@@ -1806,7 +1806,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           return ctx_r30.deletPage(j_r18);
         });
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "i", 69);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "i", 70);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1830,9 +1830,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function AppComponent_div_32_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 72);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 73);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "span", 73);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "span", 74);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
 
@@ -1852,7 +1852,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function AppComponent_option_66_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "option", 74);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "option", 75);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
 
@@ -1872,9 +1872,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function AppComponent_div_67_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 72);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 73);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "span", 73);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "span", 74);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
 
@@ -1896,7 +1896,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 12);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h6", 75);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h6", 76);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
 
@@ -1916,9 +1916,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function AppComponent_div_91_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 72);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 73);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "span", 73);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "span", 74);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
 
@@ -1940,7 +1940,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 12);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h6", 75);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h6", 76);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
 
@@ -1989,8 +1989,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           this.loading2 = null; // localStorage.setItem("paramsLoading" , "false");
 
           if (localStorage.getItem("paramsLoading") == "true") {
+            console.log("true");
+            console.log(localStorage.getItem("paramsLoading"));
+            console.log(localStorage.getItem("progress"));
             document.getElementById("_parmsID").style.display = "block";
             this.displayProgressPub();
+          } else {
+            console.log("false");
+            console.log(localStorage.getItem("paramsLoading"));
+            console.log(localStorage.getItem("progress"));
+            localStorage.setItem("progress", "0%");
           } // will read all menuIteam from menu.json
 
 
@@ -2110,8 +2118,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           var _this4 = this;
 
           this.progress();
-          console.log("rani dezt");
-          localStorage.setItem("paramsLoading", "true");
+          localStorage.setItem("paramsLoading", "true"); // localStorage.removeItem("progress");
+
           document.getElementById("loaderStatic").className = 'spinner-border spinner-border-sm';
           document.getElementById("loaderStatic").innerHTML = "";
           document.getElementById("loaderServer").innerHTML = "<i class=\"fas fa-pause\"></i>";
@@ -2121,21 +2129,24 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             console.log(data);
 
             if (data['status'] == true) {
-              var element = document.getElementById("pgrsBar");
-              element.style.width = 100 + '%';
               document.getElementById("loaderStatic").className = '';
               document.getElementById("loaderStatic").innerHTML = "<i class=\"fas fa-check\"></i>";
               document.getElementById("loaderServer").className = 'spinner-border spinner-border-sm';
               document.getElementById("loaderServer").innerHTML = "";
-              localStorage.setItem("paramsLoading", "false");
 
               _this4.staticServ.publish().subscribe(function (data) {
                 console.log(data);
 
                 if (data['status'] == true) {
+                  var element = document.getElementById("pgrsBar");
+                  element.style.width = 100 + '%';
+                  document.getElementById("publishingalert").innerHTML = '<span><i class="fa fa-check" aria-hidden="true"></i></span> Congratulations';
+                  document.getElementById("prgsContent").innerHTML = "";
+                  document.getElementById("prgsContent").innerHTML = "\n            <p class=\"px-3\">\n              Your static version of your website has been successfully generated. <br>\n              <b class='py-2'>website url <a href='https://www.tlaqliacms.tk/' target=\"_blank\">tlaqliacms</a></b>\n            </p>\n            ";
                   document.getElementById("loaderServer").className = '';
                   document.getElementById("loaderServer").innerHTML = "<i class=\"fas fa-check\"></i>";
                   localStorage.setItem("paramsLoading", "false");
+                  localStorage.removeItem("progress");
                 }
               }, function (err) {
                 console.log(err);
@@ -2157,7 +2168,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           var i = 0;
 
-          if (localStorage.getItem("progress") != undefined) {
+          if (localStorage.getItem("progress") != null) {
             var k = localStorage.getItem("progress").substring(0, localStorage.getItem("progress").length - 1);
             i = parseInt(k);
           }
@@ -2217,9 +2228,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       type: AppComponent,
       selectors: [["", 8, "app-root"]],
       attrs: _c0,
-      decls: 138,
+      decls: 139,
       vars: 12,
-      consts: [[1, "app-headerv2"], [3, "activate"], [1, "app-footer"], [1, "admin"], ["id", "gbl_settings", 1, "gbl-settings", "posR"], ["id", "btn_settings", 1, "btn-settings"], [1, "fas", "fa-cogs", "text-white", "size13"], [1, "panel-settings"], [1, "popup__header"], [1, "row", "mrg-b2"], [1, "col-lg-12", "border-bottom", "pd-b2"], [1, "size19", "Roboto-medium"], [1, "row"], [1, "col-lg-12"], [1, "accordion"], [1, "row", "panel"], [1, "col-md-12", "pd-t2", "pd-b2"], [1, "col-md-12", "pd-t2"], ["class", "d-flex", 4, "ngFor", "ngForOf"], ["class", "spinner-border", "role", "status", 4, "ngIf"], [1, "row", "pd-b1"], ["type", "submit", "data-form", "adding", 1, "btn-action-access", "nw-btn", "nw-btn-s", "nw-btn-info", "w-100", 3, "click"], [1, "col-lg-12", "pt-3", "text-center"], [1, "col-11", "nw-btn", "nw-btn-sm", 3, "click"], [1, "col-11", "btn-dark", 3, "click"], ["id", "adding", 1, "popup"], [1, "popup__dialog"], [1, "fix__custom__popup"], [1, "popup__content"], [1, "row", "mrg-b4", "pd-b2", "line-hr-bottom"], [1, "row", "mrg-b0", "line-hr-bottom"], [1, "col-lg-12", "mrg-t0", "mrg-b0"], ["type", "yexy", "placeholder", "Name", 1, "form-control", 3, "ngModel", "ngModelChange"], ["type", "yexy", "placeholder", "Href", 1, "form-control", 3, "ngModel", "ngModelChange"], ["id", "inlineFormCustomSelectPref", 1, "custom-select", "my-1", "mr-sm-2", 3, "ngModel", "ngModelChange"], [3, "value", 4, "ngFor", "ngForOf"], [1, "popup__footer", "pd-t1"], ["class", "row", 4, "ngIf"], [1, "col-lg-12", "pd-b1", "pd-t1", "text-right"], [1, "nw-btn", "nw-btn-sm", "nw-btn-outline-primary", "close-popup", 3, "click"], [1, "nw-btn", "nw-btn-sm", "nw-btn-primary", 3, "click"], ["id", "updating", 1, "popup"], ["id", "loaderDiv", 1, "pre-loader"], [1, "loader"], [1, "size25", "title-2", "text-loader", "text-center"], ["id", "css-modal", 1, "shadow", "p-3", "px-0", "mb-5", "bg-white", "rounded"], ["id", "modal", "type", "checkbox", "checked", "", 1, "css-modal-check", "cong-cls"], [1, "css-modal"], ["for", "css-modal", 1, "close", 3, "click"], ["id", "overlay"], ["id", "_parmsID", 1, "_parms", 2, "display", "none"], [1, "card", "card-1"], [1, "card-title", "p-3"], [1, "fas", "fa-file-code"], [1, "px-3"], ["id", "btns_parms d-flex justify-content-center", 1, "px-3", "col-12", 2, "text-align", "center"], ["type", "button", "disabled", "", 1, "btn", "btn-primary", "mx-2", "col-5"], ["id", "loaderStatic", "role", "status", "aria-hidden", "true", 1, ""], ["id", "loaderServer"], [1, "progress", "bottom", 2, "height", "4px", "margin-top", "26px"], ["id", "pgrsBar", "role", "progressbar", "aria-valuenow", "25", "aria-valuemin", "0", "aria-valuemax", "100", 1, "progress-bar", 2, "width", "0%"], [1, "d-flex"], [1, "col-md-8"], [4, "ngIf", "ngIfElse"], ["noCheked", ""], [1, "mrg-l2", "size15"], [1, "col-md-1"], [1, "fas", "fa-pencil-alt", 2, "color", "blue", 3, "click"], [1, "col-md-1", 3, "click"], [1, "far", "fa-trash-alt", 2, "color", "red"], ["type", "checkbox", "checked", "", "data-toggle", "toggle", 3, "change"], ["type", "checkbox", "data-toggle", "toggle", 3, "change"], ["role", "status", 1, "spinner-border"], [1, "sr-only"], [3, "value"], [2, "color", "red"]],
+      consts: [[1, "app-headerv2"], [3, "activate"], [1, "app-footer"], [1, "admin"], ["id", "gbl_settings", 1, "gbl-settings", "posR"], ["id", "btn_settings", 1, "btn-settings"], [1, "fas", "fa-cogs", "text-white", "size13"], [1, "panel-settings"], [1, "popup__header"], [1, "row", "mrg-b2"], [1, "col-lg-12", "border-bottom", "pd-b2"], [1, "size19", "Roboto-medium"], [1, "row"], [1, "col-lg-12"], [1, "accordion"], [1, "row", "panel"], [1, "col-md-12", "pd-t2", "pd-b2"], [1, "col-md-12", "pd-t2"], ["class", "d-flex", 4, "ngFor", "ngForOf"], ["class", "spinner-border", "role", "status", 4, "ngIf"], [1, "row", "pd-b1"], ["type", "submit", "data-form", "adding", 1, "btn-action-access", "nw-btn", "nw-btn-s", "nw-btn-info", "w-100", 3, "click"], [1, "col-lg-12", "pt-3", "text-center"], [1, "col-11", "nw-btn", "nw-btn-sm", 3, "click"], [1, "col-11", "btn-dark", 3, "click"], ["id", "adding", 1, "popup"], [1, "popup__dialog"], [1, "fix__custom__popup"], [1, "popup__content"], [1, "row", "mrg-b4", "pd-b2", "line-hr-bottom"], [1, "row", "mrg-b0", "line-hr-bottom"], [1, "col-lg-12", "mrg-t0", "mrg-b0"], ["type", "yexy", "placeholder", "Name", 1, "form-control", 3, "ngModel", "ngModelChange"], ["type", "yexy", "placeholder", "Href", 1, "form-control", 3, "ngModel", "ngModelChange"], ["id", "inlineFormCustomSelectPref", 1, "custom-select", "my-1", "mr-sm-2", 3, "ngModel", "ngModelChange"], [3, "value", 4, "ngFor", "ngForOf"], [1, "popup__footer", "pd-t1"], ["class", "row", 4, "ngIf"], [1, "col-lg-12", "pd-b1", "pd-t1", "text-right"], [1, "nw-btn", "nw-btn-sm", "nw-btn-outline-primary", "close-popup", 3, "click"], [1, "nw-btn", "nw-btn-sm", "nw-btn-primary", 3, "click"], ["id", "updating", 1, "popup"], ["id", "loaderDiv", 1, "pre-loader"], [1, "loader"], [1, "size25", "title-2", "text-loader", "text-center"], ["id", "css-modal", 1, "shadow", "p-3", "px-0", "mb-5", "bg-white", "rounded"], ["id", "modal", "type", "checkbox", "checked", "", 1, "css-modal-check", "cong-cls"], [1, "css-modal"], ["for", "css-modal", 1, "close", 3, "click"], ["id", "overlay"], ["id", "_parmsID", 1, "_parms", 2, "display", "none"], [1, "card", "card-1"], ["id", "publishingalert", 1, "card-title", "p-3"], [1, "fas", "fa-file-code"], ["id", "prgsContent"], [1, "px-3"], ["id", "btns_parms d-flex justify-content-center", 1, "px-3", "col-12", 2, "text-align", "center"], ["type", "button", "disabled", "", 1, "btn", "btn-primary", "mx-2", "col-5"], ["id", "loaderStatic", "role", "status", "aria-hidden", "true", 1, ""], ["id", "loaderServer"], [1, "progress", "bottom", 2, "height", "4px", "margin-top", "26px"], ["id", "pgrsBar", "role", "progressbar", "aria-valuenow", "25", "aria-valuemin", "0", "aria-valuemax", "100", 1, "progress-bar", 2, "width", "0%"], [1, "d-flex"], [1, "col-md-8"], [4, "ngIf", "ngIfElse"], ["noCheked", ""], [1, "mrg-l2", "size15"], [1, "col-md-1"], [1, "fas", "fa-pencil-alt", 2, "color", "blue", 3, "click"], [1, "col-md-1", 3, "click"], [1, "far", "fa-trash-alt", 2, "color", "red"], ["type", "checkbox", "checked", "", "data-toggle", "toggle", 3, "change"], ["type", "checkbox", "data-toggle", "toggle", 3, "change"], ["role", "status", 1, "spinner-border"], [1, "sr-only"], [3, "value"], [2, "color", "red"]],
       template: function AppComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "html");
@@ -2698,35 +2709,39 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](127, "p", 54);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](127, "div", 54);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](128, " It will take 2-4 minutes to complete generating a static content of your website ... ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](128, "p", 55);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](129, "div", 55);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](130, "button", 56);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](131, "span", 57);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](132, " Static website ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](129, " It will take 2-4 minutes to complete generating a static content of your website ... ");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](133, "button", 56);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](130, "div", 56);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](134, "span", 58);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](131, "button", 57);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](135, " Upload to server ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](132, "span", 58);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](133, " Static website ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](134, "button", 57);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](135, "span", 59);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](136, " Upload to server ");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](136, "div", 59);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](137, "div", 60);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](137, "div", 60);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](138, "div", 61);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
