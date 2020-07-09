@@ -14829,7 +14829,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   function srcAppPagesContactJsonFilesAppBlogComponentv15Json(module) {
-    module.exports = JSON.parse("{\"title\":\"Contact us V2\"}");
+    module.exports = JSON.parse("{\"title\":\"Contact\"}");
     /***/
   },
 
