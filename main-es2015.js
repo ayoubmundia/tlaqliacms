@@ -983,16 +983,16 @@ class AppComponent {
         this.loading2 = null;
         // localStorage.setItem("paramsLoading" , "false");
         if (localStorage.getItem("paramsLoading") == "true") {
-            console.log("true");
-            console.log(localStorage.getItem("paramsLoading"));
-            console.log(localStorage.getItem("progress"));
+            // console.log("true");
+            // console.log(localStorage.getItem("paramsLoading"));
+            // console.log(localStorage.getItem("progress"));
             document.getElementById("_parmsID").style.display = "block";
             this.displayProgressPub();
         }
         else if (localStorage.getItem("paramsLoading") == "false") {
-            console.log("false");
-            console.log(localStorage.getItem("paramsLoading"));
-            console.log(localStorage.getItem("progress"));
+            // console.log("false");
+            // console.log(localStorage.getItem("paramsLoading"));
+            // console.log(localStorage.getItem("progress"));
             localStorage.setItem("progress", "0%");
         }
         // will read all menuIteam from menu.json
@@ -1008,7 +1008,7 @@ class AppComponent {
             for (let index = 0; index < data["reponse"].length; index++) {
                 this.templateNames.push(data["reponse"][index]);
             }
-            console.log(this.templateNames);
+            // //console.log(this.templateNames);
         });
     }
     //will show and hide menu iteam
@@ -1028,9 +1028,9 @@ class AppComponent {
                 'nameTemplate': this.addmenuIteam.nameComponant,
                 'linkTemplate': this.addmenuIteam.routeMenuIteam,
             };
-            console.log(this.addmenuIteam);
+            // //console.log(this.addmenuIteam);
             this.httpClient.post('http://localhost:3000/api/creatCompo', Indata).subscribe(() => {
-                console.log("create with success");
+                // console.log("create with success")
             }, (err) => {
                 this.errMessage = "faild to create componant" + err;
                 this.loading = null;
@@ -1045,7 +1045,7 @@ class AppComponent {
         var Indata = { 'indexMenuIteam': index };
         this.loading2 = "loading...";
         this.httpClient.post('http://localhost:3000/api/deletCom', Indata).subscribe(() => {
-            console.log("delet with success");
+            // console.log("delet with success")
         });
     }
     //will send value to the pop up
@@ -1063,14 +1063,14 @@ class AppComponent {
             'nameMenuIteam': this.modifymenuIteam.nameMenuIteam,
             'routeMenuIteam': this.modifymenuIteam.routeMenuIteam
         };
-        console.log(Indata);
+        // console.log(Indata);
         this.httpClient.post('http://localhost:3000/api/updateMenuIteam', Indata).subscribe();
     }
     //lets generate static content X-)
     generateStaticContent() {
         document.getElementById("loaderDiv").style.display = "block";
         this.staticServ.generate().subscribe((data) => {
-            console.log(data);
+            // console.log(data);
             if (data['status'] == true) {
                 document.getElementById("loaderDiv").style.display = "none";
                 document.getElementById("css-modal").style.display = "block";
@@ -1092,26 +1092,27 @@ class AppComponent {
         document.getElementById("loaderServer").className = '';
         document.getElementById("_parmsID").style.display = "block";
         this.staticServ.generate().subscribe((data) => {
-            console.log(data);
+            // console.log(data);
             if (data['status'] == true) {
                 document.getElementById("loaderStatic").className = '';
                 document.getElementById("loaderStatic").innerHTML = `<i class="fas fa-check"></i>`;
                 document.getElementById("loaderServer").className = 'spinner-border spinner-border-sm';
                 document.getElementById("loaderServer").innerHTML = ``;
                 this.staticServ.publish().subscribe((data) => {
-                    console.log(data);
+                    // console.log(data);
                     if (data['status'] == true) {
-                        localStorage.setItem("paramsLoading", "false");
-                        localStorage.removeItem("progress");
                         var element = document.getElementById("pgrsBar");
                         element.style.width = 100 + '%';
+                        localStorage.setItem("paramsLoading", "false");
+                        localStorage.removeItem("progress");
                         document.getElementById("publishingalert").innerHTML = '<span><i class="fa fa-check" aria-hidden="true"></i></span> Congratulations';
                         document.getElementById("prgsContent").innerHTML = ``;
-                        document.getElementById("prgsContent").innerHTML = `
-            <p class="px-3">
-              Your static version of your website has been successfully generated. <br>
-              <b class='py-2'>website url <a href='https://www.tlaqliacms.tk/' target="_blank">tlaqliacms</a></b>
-            </p>
+                        document.getElementById("prgsContent").innerHTML =
+                            `
+              <p class="px-3">
+                Your static version of your website has been successfully generated. <br>
+                <b class='py-2'>website url <a href='https://www.tlaqliacms.tk/' target="_blank">tlaqliacms</a></b>
+              </p>
             `;
                         document.getElementById("loaderServer").className = '';
                         document.getElementById("loaderServer").innerHTML = `<i class="fas fa-check"></i>`;
@@ -1771,7 +1772,7 @@ class BlogComponentV1 {
         this.DATACV1 = new _Models_cv1_cv1_module__WEBPACK_IMPORTED_MODULE_1__["Cv1Module"]();
     }
     ngOnInit() {
-        console.log('getOnit');
+        //console.log('getOnit');
         // START : this function will put value from BehaviorSubject and put it into DATACV1
         this.infocv1service.load_data_cv1.subscribe(data => {
             this.DATACV1.title = data.title;
@@ -1780,7 +1781,7 @@ class BlogComponentV1 {
             this.url = data.url;
         });
         // END
-        console.log(this.DATACV1);
+        ////console.log(this.DATACV1)
     }
     // function will send data to info cv1 service
     getDataCv1(data, url) {
@@ -2050,7 +2051,7 @@ class BlogComponentV10 {
         this.DATACV10 = new _Models_cv10_cv10_module__WEBPACK_IMPORTED_MODULE_1__["Cv10Module"]();
     }
     ngOnInit() {
-        console.log('getOnit');
+        //console.log('getOnit');
         // START : this function will put value from BehaviorSubject and put it into DATACV10
         this.infocv10service.load_data_cv10.subscribe(data => {
             this.DATACV10.title = data.title;
@@ -2058,7 +2059,7 @@ class BlogComponentV10 {
             this.url = data.url;
         });
         // END
-        console.log(this.DATACV10);
+        //console.log(this.DATACV10)
     }
     // function will send data to info cv10 service
     getDataCv10(data, url) {
@@ -2238,14 +2239,14 @@ class BlogComponentV11 {
         this.DATACV11 = new _Models_cv11_cv11_module__WEBPACK_IMPORTED_MODULE_1__["Cv11Module"]();
     }
     ngOnInit() {
-        console.log('getOnit');
+        //console.log('getOnit');
         // START : this function will put value from BehaviorSubject and put it into DATACV11
         this.infocv11service.load_data_cv11.subscribe(data => {
             this.DATACV11.title = data.title;
             this.url = data.url;
         });
         // END
-        console.log(this.DATACV11);
+        //console.log(this.DATACV11)
     }
     // function will send data to info cv11 service
     getDataCv11(data, url) {
@@ -2380,7 +2381,7 @@ class BlogComponentV12 {
         this.DATACV12 = new _Models_cv12_cv12_module__WEBPACK_IMPORTED_MODULE_1__["Cv12Module"]();
     }
     ngOnInit() {
-        console.log('getOnit');
+        //console.log('getOnit');
         // START : this function will put value from BehaviorSubject and put it into DATACV12
         this.infocv12service.load_data_cv12.subscribe(data => {
             this.DATACV12.title = data.title;
@@ -2390,7 +2391,7 @@ class BlogComponentV12 {
             this.url = data.url;
         });
         // END
-        console.log(this.DATACV12);
+        //console.log(this.DATACV12)
     }
     // function will send data to info cv12 service
     getDataCv12(data, url) {
@@ -2674,7 +2675,7 @@ class BlogComponentV13 {
         this.DATACV13 = new _Models_cv13_cv13_module__WEBPACK_IMPORTED_MODULE_1__["Cv13Module"]();
     }
     ngOnInit() {
-        console.log('getOnit');
+        //console.log('getOnit');
         // START : this function will put value from BehaviorSubject and put it into DATACV13
         this.infocv13service.load_data_cv13.subscribe(data => {
             this.DATACV13.title = data.title;
@@ -2683,7 +2684,7 @@ class BlogComponentV13 {
             this.url = data.url;
         });
         // END
-        console.log(this.DATACV13);
+        //console.log(this.DATACV13)
     }
     // function will send data to info cv13 service
     getDataCv13(data, url) {
@@ -2897,7 +2898,7 @@ class BlogComponentV14 {
         this.DATACV14 = new _Models_cv14_cv14_module__WEBPACK_IMPORTED_MODULE_1__["Cv14Module"]();
     }
     ngOnInit() {
-        console.log('getOnit');
+        //console.log('getOnit');
         // START : this function will put value from BehaviorSubject and put it into DATACV14
         this.infocv14service.load_data_cv14.subscribe(data => {
             this.DATACV14.title = data.title;
@@ -2909,7 +2910,7 @@ class BlogComponentV14 {
             this.url = data.url;
         });
         // END
-        console.log(this.DATACV14);
+        //console.log(this.DATACV14)
     }
     // function will send data to info cv14 service
     getDataCv14(data, url) {
@@ -3174,14 +3175,14 @@ class BlogComponentV15 {
         this.DATACV15 = new _Models_cv15_cv15_module__WEBPACK_IMPORTED_MODULE_1__["Cv15Module"]();
     }
     ngOnInit() {
-        console.log('getOnit');
+        //console.log('getOnit');
         // START : this function will put value from BehaviorSubject and put it into DATACV15
         this.infocv15service.load_data_cv15.subscribe(data => {
             this.DATACV15.title = data.title;
             this.url = data.url;
         });
         // END
-        console.log(this.DATACV15);
+        //console.log(this.DATACV15)
     }
     // function will send data to info cv15 service
     getDataCv15(data, url) {
@@ -3314,14 +3315,14 @@ class BlogComponentV16 {
         this.DATACV16 = new _Models_cv16_cv16_module__WEBPACK_IMPORTED_MODULE_1__["Cv16Module"]();
     }
     ngOnInit() {
-        console.log('getOnit');
+        //console.log('getOnit');
         // START : this function will put value from BehaviorSubject and put it into DATACV16
         this.infocv16service.load_data_cv16.subscribe(data => {
             this.DATACV16.title = data.title;
             this.url = data.url;
         });
         // END
-        console.log(this.DATACV16);
+        //console.log(this.DATACV16)
     }
     // function will send data to info cv16 service
     getDataCv16(data, url) {
@@ -3613,7 +3614,7 @@ class BlogComponentV2 {
         this.DATACV2 = new _Models_cv2_cv2_module__WEBPACK_IMPORTED_MODULE_1__["Cv2Module"]();
     }
     ngOnInit() {
-        console.log('getOnit');
+        //console.log('getOnit');
         // START : this function will put value from BehaviorSubject and put it into DATACV2
         this.infocv2service.load_data_cv2.subscribe(data => {
             this.DATACV2.title = data.title;
@@ -3622,7 +3623,7 @@ class BlogComponentV2 {
             this.url = data.url;
         });
         // END
-        console.log(this.DATACV2);
+        //console.log(this.DATACV2)
     }
     // function will send data to info cv2 service
     getDataCv2(data, url) {
@@ -3929,7 +3930,7 @@ class BlogComponentV3 {
         this.DATACV3 = new _Models_cv3_cv3_module__WEBPACK_IMPORTED_MODULE_1__["Cv3Module"]();
     }
     ngOnInit() {
-        console.log('getOnit');
+        //console.log('getOnit');
         // START : this function will put value from BehaviorSubject and put it into DATACV3
         this.infocv3service.load_data_cv3.subscribe(data => {
             this.DATACV3.title = data.title;
@@ -3938,7 +3939,7 @@ class BlogComponentV3 {
             this.url = data.url;
         });
         // END
-        console.log(this.DATACV3);
+        //console.log(this.DATACV3)
     }
     // function will send data to info cv3 service
     getDataCv3(data, url) {
@@ -4228,7 +4229,7 @@ class BlogComponentV4 {
         this.DATACV4 = new _Models_cv4_cv4_module__WEBPACK_IMPORTED_MODULE_1__["Cv4Module"]();
     }
     ngOnInit() {
-        console.log('getOnit');
+        //console.log('getOnit');
         // START : this function will put value from BehaviorSubject and put it into DATACV4
         this.infocv4service.load_data_cv4.subscribe(data => {
             this.DATACV4.title = data.title;
@@ -4237,7 +4238,7 @@ class BlogComponentV4 {
             this.url = data.url;
         });
         // END
-        console.log(this.DATACV4);
+        //console.log(this.DATACV4)
     }
     // function will send data to info cv4 service
     getDataCv4(data, url) {
@@ -4443,7 +4444,7 @@ class BlogComponentV5 {
         this.DATACV5 = new _Models_cv5_cv5_module__WEBPACK_IMPORTED_MODULE_1__["Cv5Module"]();
     }
     ngOnInit() {
-        console.log('getOnit');
+        //console.log('getOnit');
         // START : this function will put value from BehaviorSubject and put it into DATACV5
         this.infocv5service.load_data_cv5.subscribe(data => {
             this.DATACV5.description = data.description;
@@ -4452,7 +4453,7 @@ class BlogComponentV5 {
             this.url = data.url;
         });
         // END
-        console.log(this.DATACV5);
+        //console.log(this.DATACV5)
     }
     // function will send data to info cv5 service
     getDataCv5(data, url) {
@@ -4610,7 +4611,7 @@ class BlogComponentV6 {
         this.DATACV6 = new _Models_cv6_cv6_module__WEBPACK_IMPORTED_MODULE_1__["Cv6Module"]();
     }
     ngOnInit() {
-        console.log('getOnit');
+        //console.log('getOnit');
         // START : this function will put value from BehaviorSubject and put it into DATACV6
         this.infocv6service.load_data_cv6.subscribe(data => {
             this.DATACV6.description = data.description;
@@ -4619,7 +4620,7 @@ class BlogComponentV6 {
             this.url = data.url;
         });
         // END
-        console.log(this.DATACV6);
+        //console.log(this.DATACV6)
     }
     // function will send data to info cv6 service
     getDataCv6(data, url) {
@@ -4779,7 +4780,7 @@ class BlogComponentV7 {
         this.DATACV7 = new _Models_cv7_cv7_module__WEBPACK_IMPORTED_MODULE_1__["Cv7Module"]();
     }
     ngOnInit() {
-        console.log('getOnit');
+        //console.log('getOnit');
         // START : this function will put value from BehaviorSubject and put it into DATACV7
         this.infocv7service.load_data_cv7.subscribe(data => {
             this.DATACV7.background_image = data.background_image;
@@ -4791,7 +4792,7 @@ class BlogComponentV7 {
             this.url = data.url;
         });
         // END
-        console.log(this.DATACV7);
+        //console.log(this.DATACV7)
     }
     // function will send data to info cv7 service
     getDataCv7(data, url) {
@@ -4995,7 +4996,7 @@ class BlogComponentV8 {
         this.DATACV8 = new _Models_cv8_cv8_module__WEBPACK_IMPORTED_MODULE_1__["Cv8Module"]();
     }
     ngOnInit() {
-        console.log('getOnit');
+        //console.log('getOnit');
         // START : this function will put value from BehaviorSubject and put it into DATACV8
         this.infocv8service.load_data_cv8.subscribe(data => {
             this.DATACV8.link_image = data.link_image;
@@ -5006,7 +5007,7 @@ class BlogComponentV8 {
             this.url = data.url;
         });
         // END
-        console.log(this.DATACV8);
+        //console.log(this.DATACV8)
     }
     // function will send data to info cv8 service
     getDataCv8(data, url) {
@@ -5264,7 +5265,7 @@ class BlogComponentV9 {
         this.DATACV9 = new _Models_cv9_cv9_module__WEBPACK_IMPORTED_MODULE_1__["Cv9Module"]();
     }
     ngOnInit() {
-        console.log('getOnit');
+        //console.log('getOnit');
         // START : this function will put value from BehaviorSubject and put it into DATACV9
         this.infocv9service.load_data_cv9.subscribe(data => {
             this.DATACV9.title = data.title;
@@ -5273,7 +5274,7 @@ class BlogComponentV9 {
             this.url = data.url;
         });
         // END
-        console.log(this.DATACV9);
+        //console.log(this.DATACV9)
     }
     // function will send data to info cv9 service
     getDataCv9(data, url) {
@@ -5586,7 +5587,7 @@ class ServiceV1 {
         this.saveData();
     }
     deleteService(index) {
-        console.log(this.DATASV1_COPY);
+        //console.log(this.DATASV1_COPY);
         this.DATASV1.services.splice(index, 1);
     }
     openModal() {
@@ -5898,7 +5899,7 @@ class ServiceV2 {
         this.saveData();
     }
     deleteService(index) {
-        console.log(this.DATASV2_COPY);
+        //console.log(this.DATASV2_COPY);
         this.DATASV2.services.splice(index, 1);
     }
     openModal() {
@@ -7142,7 +7143,7 @@ class AboutComponent {
     ngOnInit() {
         var text = this.route.routeConfig.component.name; // component Name 
         var folderJson = text.split('Com')[0].toLowerCase() + "/jsonFiles"; // convert component Name to component Folder + "/jsonFiles"
-        console.log(folderJson);
+        //console.log(folderJson);
         this.blogcomponentv15.getDataCv15(this.dataComponenetV15, folderJson);
         this.blogcomponentv12.getDataCv12(this.dataComponenetV12, folderJson);
         this.blogcomponentv13.getDataCv13(this.dataComponenetV13, folderJson);
@@ -7296,7 +7297,7 @@ class ContactComponent {
     ngOnInit() {
         var text = this.route.routeConfig.component.name; // component Name 
         var folderJson = text.split('Com')[0].toLowerCase() + "/jsonFiles"; // convert component Name to component Folder + "/jsonFiles"
-        console.log(folderJson);
+        //console.log(folderJson);
         this.blogcomponentv15.getDataCv15(this.dataComponenetV15, folderJson);
         this.blogcomponentv16.getDataCv16(this.dataComponenetV16, folderJson);
         this.blogcomponentv11.getDataCv11(this.dataComponenetV11, folderJson);
@@ -7456,7 +7457,7 @@ class HomeComponent {
     ngOnInit() {
         var text = this.route.routeConfig.component.name; // component Name 
         var folderJson = text.split('Com')[0].toLowerCase() + "/jsonFiles"; // convert component Name to component Folder + "/jsonFiles"
-        console.log(folderJson);
+        // //console.log(folderJson);
         this.blogcomponentv8.getDataCv8(this.dataComponenetV8, folderJson);
         this.blogcomponentv3.getDataCv3(this.dataComponenetV3, folderJson);
         this.blogcomponentv5.getDataCv5(this.dataComponenetV5, folderJson);
@@ -7582,7 +7583,7 @@ module.exports = JSON.parse("{\"background_image\":\"https://app.cheetaho.com/st
 /*! exports provided: link_image, title, sub_title, text_button, link_button, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"link_image\":\"https://app.cheetaho.com/storage/2020/07/2971/0de45926-7d64-4269-8920-8cd4442ab3e8/optimized/photo-1523821741446-edb2b68bb7a0.\",\"title\":\"Aubmov\",\"sub_title\":\"Welcome to this new features\",\"text_button\":\"start building\",\"link_button\":\"https://www.ebay.com\"}");
+module.exports = JSON.parse("{\"link_image\":\"https://app.cheetaho.com/storage/2020/07/2971/5914d901-8353-48c3-8f1c-3531243861dd/optimized/photo-1523821741446-edb2b68bb7a0.\",\"title\":\"Aubmov 2\",\"sub_title\":\"Welcome to this new features\",\"text_button\":\"start building\",\"link_button\":\"https://www.ebay.com\"}");
 
 /***/ }),
 
@@ -7774,7 +7775,7 @@ class ServiceComponent {
     ngOnInit() {
         var text = this.route.routeConfig.component.name; // component Name 
         var folderJson = text.split('Com')[0].toLowerCase() + "/jsonFiles"; // convert component Name to component Folder + "/jsonFiles"
-        console.log(folderJson);
+        //console.log(folderJson);
         this.blogcomponentv11.getDataCv11(this.dataComponenetV11, folderJson);
         this.blogcomponentv15.getDataCv15(this.dataComponenetV15, folderJson);
         this.serviceV1.getDataSv1(this.dataServiceV1, folderJson);

@@ -1989,15 +1989,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           this.loading2 = null; // localStorage.setItem("paramsLoading" , "false");
 
           if (localStorage.getItem("paramsLoading") == "true") {
-            console.log("true");
-            console.log(localStorage.getItem("paramsLoading"));
-            console.log(localStorage.getItem("progress"));
+            // console.log("true");
+            // console.log(localStorage.getItem("paramsLoading"));
+            // console.log(localStorage.getItem("progress"));
             document.getElementById("_parmsID").style.display = "block";
             this.displayProgressPub();
           } else if (localStorage.getItem("paramsLoading") == "false") {
-            console.log("false");
-            console.log(localStorage.getItem("paramsLoading"));
-            console.log(localStorage.getItem("progress"));
+            // console.log("false");
+            // console.log(localStorage.getItem("paramsLoading"));
+            // console.log(localStorage.getItem("progress"));
             localStorage.setItem("progress", "0%");
           } // will read all menuIteam from menu.json
 
@@ -2018,9 +2018,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           this.httpClient.get('http://localhost:3000/api/templateList').subscribe(function (data) {
             for (var index = 0; index < data["reponse"].length; index++) {
               _this2.templateNames.push(data["reponse"][index]);
-            }
+            } // //console.log(this.templateNames);
 
-            console.log(_this2.templateNames);
           });
         } //will show and hide menu iteam
 
@@ -2048,10 +2047,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               'compoName': this.addmenuIteam.nameMenuIteam,
               'nameTemplate': this.addmenuIteam.nameComponant,
               'linkTemplate': this.addmenuIteam.routeMenuIteam
-            };
-            console.log(this.addmenuIteam);
-            this.httpClient.post('http://localhost:3000/api/creatCompo', Indata).subscribe(function () {
-              console.log("create with success");
+            }; // //console.log(this.addmenuIteam);
+
+            this.httpClient.post('http://localhost:3000/api/creatCompo', Indata).subscribe(function () {// console.log("create with success")
             }, function (err) {
               _this3.errMessage = "faild to create componant" + err;
               _this3.loading = null;
@@ -2068,8 +2066,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             'indexMenuIteam': index
           };
           this.loading2 = "loading...";
-          this.httpClient.post('http://localhost:3000/api/deletCom', Indata).subscribe(function () {
-            console.log("delet with success");
+          this.httpClient.post('http://localhost:3000/api/deletCom', Indata).subscribe(function () {// console.log("delet with success")
           });
         } //will send value to the pop up
 
@@ -2090,8 +2087,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             'indexMenuIteam': this.indexToModify,
             'nameMenuIteam': this.modifymenuIteam.nameMenuIteam,
             'routeMenuIteam': this.modifymenuIteam.routeMenuIteam
-          };
-          console.log(Indata);
+          }; // console.log(Indata);
+
           this.httpClient.post('http://localhost:3000/api/updateMenuIteam', Indata).subscribe();
         } //lets generate static content X-)
 
@@ -2100,8 +2097,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         value: function generateStaticContent() {
           document.getElementById("loaderDiv").style.display = "block";
           this.staticServ.generate().subscribe(function (data) {
-            console.log(data);
-
+            // console.log(data);
             if (data['status'] == true) {
               document.getElementById("loaderDiv").style.display = "none";
               document.getElementById("css-modal").style.display = "block";
@@ -2126,8 +2122,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           document.getElementById("loaderServer").className = '';
           document.getElementById("_parmsID").style.display = "block";
           this.staticServ.generate().subscribe(function (data) {
-            console.log(data);
-
+            // console.log(data);
             if (data['status'] == true) {
               document.getElementById("loaderStatic").className = '';
               document.getElementById("loaderStatic").innerHTML = "<i class=\"fas fa-check\"></i>";
@@ -2135,16 +2130,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               document.getElementById("loaderServer").innerHTML = "";
 
               _this4.staticServ.publish().subscribe(function (data) {
-                console.log(data);
-
+                // console.log(data);
                 if (data['status'] == true) {
-                  localStorage.setItem("paramsLoading", "false");
-                  localStorage.removeItem("progress");
                   var element = document.getElementById("pgrsBar");
                   element.style.width = 100 + '%';
+                  localStorage.setItem("paramsLoading", "false");
+                  localStorage.removeItem("progress");
                   document.getElementById("publishingalert").innerHTML = '<span><i class="fa fa-check" aria-hidden="true"></i></span> Congratulations';
                   document.getElementById("prgsContent").innerHTML = "";
-                  document.getElementById("prgsContent").innerHTML = "\n            <p class=\"px-3\">\n              Your static version of your website has been successfully generated. <br>\n              <b class='py-2'>website url <a href='https://www.tlaqliacms.tk/' target=\"_blank\">tlaqliacms</a></b>\n            </p>\n            ";
+                  document.getElementById("prgsContent").innerHTML = "\n              <p class=\"px-3\">\n                Your static version of your website has been successfully generated. <br>\n                <b class='py-2'>website url <a href='https://www.tlaqliacms.tk/' target=\"_blank\">tlaqliacms</a></b>\n              </p>\n            ";
                   document.getElementById("loaderServer").className = '';
                   document.getElementById("loaderServer").innerHTML = "<i class=\"fas fa-check\"></i>";
                 }
@@ -3423,16 +3417,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         value: function ngOnInit() {
           var _this5 = this;
 
-          console.log('getOnit'); // START : this function will put value from BehaviorSubject and put it into DATACV1
-
+          //console.log('getOnit');
+          // START : this function will put value from BehaviorSubject and put it into DATACV1
           this.infocv1service.load_data_cv1.subscribe(function (data) {
             _this5.DATACV1.title = data.title;
             _this5.DATACV1.description = data.description;
             _this5.DATACV1.images = data.images;
             _this5.url = data.url;
           }); // END
-
-          console.log(this.DATACV1);
+          ////console.log(this.DATACV1)
         } // function will send data to info cv1 service
 
       }, {
@@ -4009,15 +4002,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         value: function ngOnInit() {
           var _this7 = this;
 
-          console.log('getOnit'); // START : this function will put value from BehaviorSubject and put it into DATACV10
-
+          //console.log('getOnit');
+          // START : this function will put value from BehaviorSubject and put it into DATACV10
           this.infocv10service.load_data_cv10.subscribe(function (data) {
             _this7.DATACV10.title = data.title;
             _this7.DATACV10.statistics = data.statistics;
             _this7.url = data.url;
           }); // END
-
-          console.log(this.DATACV10);
+          //console.log(this.DATACV10)
         } // function will send data to info cv10 service
 
       }, {
@@ -4392,14 +4384,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         value: function ngOnInit() {
           var _this9 = this;
 
-          console.log('getOnit'); // START : this function will put value from BehaviorSubject and put it into DATACV11
-
+          //console.log('getOnit');
+          // START : this function will put value from BehaviorSubject and put it into DATACV11
           this.infocv11service.load_data_cv11.subscribe(function (data) {
             _this9.DATACV11.title = data.title;
             _this9.url = data.url;
           }); // END
-
-          console.log(this.DATACV11);
+          //console.log(this.DATACV11)
         } // function will send data to info cv11 service
 
       }, {
@@ -4681,8 +4672,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         value: function ngOnInit() {
           var _this11 = this;
 
-          console.log('getOnit'); // START : this function will put value from BehaviorSubject and put it into DATACV12
-
+          //console.log('getOnit');
+          // START : this function will put value from BehaviorSubject and put it into DATACV12
           this.infocv12service.load_data_cv12.subscribe(function (data) {
             _this11.DATACV12.title = data.title;
             _this11.DATACV12.sub_title = data.sub_title;
@@ -4690,8 +4681,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             _this11.DATACV12.description2 = data.description2;
             _this11.url = data.url;
           }); // END
-
-          console.log(this.DATACV12);
+          //console.log(this.DATACV12)
         } // function will send data to info cv12 service
 
       }, {
@@ -5301,16 +5291,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         value: function ngOnInit() {
           var _this13 = this;
 
-          console.log('getOnit'); // START : this function will put value from BehaviorSubject and put it into DATACV13
-
+          //console.log('getOnit');
+          // START : this function will put value from BehaviorSubject and put it into DATACV13
           this.infocv13service.load_data_cv13.subscribe(function (data) {
             _this13.DATACV13.title = data.title;
             _this13.DATACV13.description = data.description;
             _this13.DATACV13.strategies = data.strategies;
             _this13.url = data.url;
           }); // END
-
-          console.log(this.DATACV13);
+          //console.log(this.DATACV13)
         } // function will send data to info cv13 service
 
       }, {
@@ -5757,8 +5746,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         value: function ngOnInit() {
           var _this15 = this;
 
-          console.log('getOnit'); // START : this function will put value from BehaviorSubject and put it into DATACV14
-
+          //console.log('getOnit');
+          // START : this function will put value from BehaviorSubject and put it into DATACV14
           this.infocv14service.load_data_cv14.subscribe(function (data) {
             _this15.DATACV14.title = data.title;
             _this15.DATACV14.description = data.description;
@@ -5768,8 +5757,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             _this15.DATACV14.email = data.email;
             _this15.url = data.url;
           }); // END
-
-          console.log(this.DATACV14);
+          //console.log(this.DATACV14)
         } // function will send data to info cv14 service
 
       }, {
@@ -6321,14 +6309,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         value: function ngOnInit() {
           var _this17 = this;
 
-          console.log('getOnit'); // START : this function will put value from BehaviorSubject and put it into DATACV15
-
+          //console.log('getOnit');
+          // START : this function will put value from BehaviorSubject and put it into DATACV15
           this.infocv15service.load_data_cv15.subscribe(function (data) {
             _this17.DATACV15.title = data.title;
             _this17.url = data.url;
           }); // END
-
-          console.log(this.DATACV15);
+          //console.log(this.DATACV15)
         } // function will send data to info cv15 service
 
       }, {
@@ -6606,14 +6593,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         value: function ngOnInit() {
           var _this19 = this;
 
-          console.log('getOnit'); // START : this function will put value from BehaviorSubject and put it into DATACV16
-
+          //console.log('getOnit');
+          // START : this function will put value from BehaviorSubject and put it into DATACV16
           this.infocv16service.load_data_cv16.subscribe(function (data) {
             _this19.DATACV16.title = data.title;
             _this19.url = data.url;
           }); // END
-
-          console.log(this.DATACV16);
+          //console.log(this.DATACV16)
         } // function will send data to info cv16 service
 
       }, {
@@ -7240,16 +7226,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         value: function ngOnInit() {
           var _this21 = this;
 
-          console.log('getOnit'); // START : this function will put value from BehaviorSubject and put it into DATACV2
-
+          //console.log('getOnit');
+          // START : this function will put value from BehaviorSubject and put it into DATACV2
           this.infocv2service.load_data_cv2.subscribe(function (data) {
             _this21.DATACV2.title = data.title;
             _this21.DATACV2.description = data.description;
             _this21.DATACV2.blocks = data.blocks;
             _this21.url = data.url;
           }); // END
-
-          console.log(this.DATACV2);
+          //console.log(this.DATACV2)
         } // function will send data to info cv2 service
 
       }, {
@@ -7911,16 +7896,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         value: function ngOnInit() {
           var _this23 = this;
 
-          console.log('getOnit'); // START : this function will put value from BehaviorSubject and put it into DATACV3
-
+          //console.log('getOnit');
+          // START : this function will put value from BehaviorSubject and put it into DATACV3
           this.infocv3service.load_data_cv3.subscribe(function (data) {
             _this23.DATACV3.title = data.title;
             _this23.DATACV3.description = data.description;
             _this23.DATACV3.blocks = data.blocks;
             _this23.url = data.url;
           }); // END
-
-          console.log(this.DATACV3);
+          //console.log(this.DATACV3)
         } // function will send data to info cv3 service
 
       }, {
@@ -8542,16 +8526,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         value: function ngOnInit() {
           var _this25 = this;
 
-          console.log('getOnit'); // START : this function will put value from BehaviorSubject and put it into DATACV4
-
+          //console.log('getOnit');
+          // START : this function will put value from BehaviorSubject and put it into DATACV4
           this.infocv4service.load_data_cv4.subscribe(function (data) {
             _this25.DATACV4.title = data.title;
             _this25.DATACV4.description = data.description;
             _this25.DATACV4.images = data.images;
             _this25.url = data.url;
           }); // END
-
-          console.log(this.DATACV4);
+          //console.log(this.DATACV4)
         } // function will send data to info cv4 service
 
       }, {
@@ -8982,16 +8965,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         value: function ngOnInit() {
           var _this27 = this;
 
-          console.log('getOnit'); // START : this function will put value from BehaviorSubject and put it into DATACV5
-
+          //console.log('getOnit');
+          // START : this function will put value from BehaviorSubject and put it into DATACV5
           this.infocv5service.load_data_cv5.subscribe(function (data) {
             _this27.DATACV5.description = data.description;
             _this27.DATACV5.title_button = data.title_button;
             _this27.DATACV5.link_button = data.link_button;
             _this27.url = data.url;
           }); // END
-
-          console.log(this.DATACV5);
+          //console.log(this.DATACV5)
         } // function will send data to info cv5 service
 
       }, {
@@ -9323,16 +9305,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         value: function ngOnInit() {
           var _this29 = this;
 
-          console.log('getOnit'); // START : this function will put value from BehaviorSubject and put it into DATACV6
-
+          //console.log('getOnit');
+          // START : this function will put value from BehaviorSubject and put it into DATACV6
           this.infocv6service.load_data_cv6.subscribe(function (data) {
             _this29.DATACV6.description = data.description;
             _this29.DATACV6.title_button = data.title_button;
             _this29.DATACV6.link_button = data.link_button;
             _this29.url = data.url;
           }); // END
-
-          console.log(this.DATACV6);
+          //console.log(this.DATACV6)
         } // function will send data to info cv6 service
 
       }, {
@@ -9668,8 +9649,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         value: function ngOnInit() {
           var _this31 = this;
 
-          console.log('getOnit'); // START : this function will put value from BehaviorSubject and put it into DATACV7
-
+          //console.log('getOnit');
+          // START : this function will put value from BehaviorSubject and put it into DATACV7
           this.infocv7service.load_data_cv7.subscribe(function (data) {
             _this31.DATACV7.background_image = data.background_image;
             _this31.DATACV7.title = data.title;
@@ -9679,8 +9660,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             _this31.DATACV7.url_button = data.url_button;
             _this31.url = data.url;
           }); // END
-
-          console.log(this.DATACV7);
+          //console.log(this.DATACV7)
         } // function will send data to info cv7 service
 
       }, {
@@ -10110,8 +10090,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         value: function ngOnInit() {
           var _this33 = this;
 
-          console.log('getOnit'); // START : this function will put value from BehaviorSubject and put it into DATACV8
-
+          //console.log('getOnit');
+          // START : this function will put value from BehaviorSubject and put it into DATACV8
           this.infocv8service.load_data_cv8.subscribe(function (data) {
             _this33.DATACV8.link_image = data.link_image;
             _this33.DATACV8.title = data.title;
@@ -10120,8 +10100,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             _this33.DATACV8.link_button = data.link_button;
             _this33.url = data.url;
           }); // END
-
-          console.log(this.DATACV8);
+          //console.log(this.DATACV8)
         } // function will send data to info cv8 service
 
       }, {
@@ -10676,16 +10655,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         value: function ngOnInit() {
           var _this35 = this;
 
-          console.log('getOnit'); // START : this function will put value from BehaviorSubject and put it into DATACV9
-
+          //console.log('getOnit');
+          // START : this function will put value from BehaviorSubject and put it into DATACV9
           this.infocv9service.load_data_cv9.subscribe(function (data) {
             _this35.DATACV9.title = data.title;
             _this35.DATACV9.description = data.description;
             _this35.DATACV9.blocks = data.blocks;
             _this35.url = data.url;
           }); // END
-
-          console.log(this.DATACV9);
+          //console.log(this.DATACV9)
         } // function will send data to info cv9 service
 
       }, {
@@ -11335,7 +11313,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "deleteService",
         value: function deleteService(index) {
-          console.log(this.DATASV1_COPY);
+          //console.log(this.DATASV1_COPY);
           this.DATASV1.services.splice(index, 1);
         }
       }, {
@@ -11995,7 +11973,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "deleteService",
         value: function deleteService(index) {
-          console.log(this.DATASV2_COPY);
+          //console.log(this.DATASV2_COPY);
           this.DATASV2.services.splice(index, 1);
         }
       }, {
@@ -14510,8 +14488,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           var text = this.route.routeConfig.component.name; // component Name 
 
           var folderJson = text.split('Com')[0].toLowerCase() + "/jsonFiles"; // convert component Name to component Folder + "/jsonFiles"
+          //console.log(folderJson);
 
-          console.log(folderJson);
           this.blogcomponentv15.getDataCv15(this.dataComponenetV15, folderJson);
           this.blogcomponentv12.getDataCv12(this.dataComponenetV12, folderJson);
           this.blogcomponentv13.getDataCv13(this.dataComponenetV13, folderJson);
@@ -14803,8 +14781,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           var text = this.route.routeConfig.component.name; // component Name 
 
           var folderJson = text.split('Com')[0].toLowerCase() + "/jsonFiles"; // convert component Name to component Folder + "/jsonFiles"
+          //console.log(folderJson);
 
-          console.log(folderJson);
           this.blogcomponentv15.getDataCv15(this.dataComponenetV15, folderJson);
           this.blogcomponentv16.getDataCv16(this.dataComponenetV16, folderJson);
           this.blogcomponentv11.getDataCv11(this.dataComponenetV11, folderJson);
@@ -15138,8 +15116,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           var text = this.route.routeConfig.component.name; // component Name 
 
           var folderJson = text.split('Com')[0].toLowerCase() + "/jsonFiles"; // convert component Name to component Folder + "/jsonFiles"
+          // //console.log(folderJson);
 
-          console.log(folderJson);
           this.blogcomponentv8.getDataCv8(this.dataComponenetV8, folderJson);
           this.blogcomponentv3.getDataCv3(this.dataComponenetV3, folderJson);
           this.blogcomponentv5.getDataCv5(this.dataComponenetV5, folderJson);
@@ -15346,7 +15324,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   function srcAppPagesHomeJsonFilesAppBlogComponentv8Json(module) {
-    module.exports = JSON.parse("{\"link_image\":\"https://app.cheetaho.com/storage/2020/07/2971/0de45926-7d64-4269-8920-8cd4442ab3e8/optimized/photo-1523821741446-edb2b68bb7a0.\",\"title\":\"Aubmov\",\"sub_title\":\"Welcome to this new features\",\"text_button\":\"start building\",\"link_button\":\"https://www.ebay.com\"}");
+    module.exports = JSON.parse("{\"link_image\":\"https://app.cheetaho.com/storage/2020/07/2971/5914d901-8353-48c3-8f1c-3531243861dd/optimized/photo-1523821741446-edb2b68bb7a0.\",\"title\":\"Aubmov 2\",\"sub_title\":\"Welcome to this new features\",\"text_button\":\"start building\",\"link_button\":\"https://www.ebay.com\"}");
     /***/
   },
 
@@ -15723,8 +15701,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           var text = this.route.routeConfig.component.name; // component Name 
 
           var folderJson = text.split('Com')[0].toLowerCase() + "/jsonFiles"; // convert component Name to component Folder + "/jsonFiles"
+          //console.log(folderJson);
 
-          console.log(folderJson);
           this.blogcomponentv11.getDataCv11(this.dataComponenetV11, folderJson);
           this.blogcomponentv15.getDataCv15(this.dataComponenetV15, folderJson);
           this.serviceV1.getDataSv1(this.dataServiceV1, folderJson);
