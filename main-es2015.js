@@ -7531,7 +7531,7 @@ module.exports = JSON.parse("{\"background_image\":\"https://app.cheetaho.com/st
 /*! exports provided: link_image, title, sub_title, text_button, link_button, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"link_image\":\"https://app.cheetaho.com/storage/2020/07/2971/c3d5bb3f-0128-4657-a75f-457d20c307d4/optimized/photo-1523821741446-edb2b68bb7a0.\",\"title\":\"MARADONA V2\",\"sub_title\":\"Welcome to this new features\",\"text_button\":\"start building\",\"link_button\":\"https://www.ebay.com\"}");
+module.exports = JSON.parse("{\"link_image\":\"https://app.cheetaho.com/storage/2020/07/2971/338c0685-3829-4f22-acca-8256e857af80/optimized/photo-1523821741446-edb2b68bb7a0.\",\"title\":\"MARADONAS V2\",\"sub_title\":\"Welcome to this new features\",\"text_button\":\"start building\",\"link_button\":\"https://www.ebay.com\"}");
 
 /***/ }),
 
