@@ -1714,7 +1714,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "input", 68);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "input", 67);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("change", function AppComponent_div_30_div_3_Template_input_change_1_listener() {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r24);
@@ -1736,7 +1736,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       if (rf & 1) {
         var _r27 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "input", 69);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "input", 68);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("change", function AppComponent_div_30_ng_template_4_Template_input_change_0_listener() {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r27);
@@ -1756,17 +1756,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       if (rf & 1) {
         var _r29 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 59);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 58);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 60);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 59);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 12);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, AppComponent_div_30_div_3_Template, 2, 0, "div", 61);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, AppComponent_div_30_div_3_Template, 2, 0, "div", 60);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, AppComponent_div_30_ng_template_4_Template, 1, 0, "ng-template", null, 62, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplateRefExtractor"]);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, AppComponent_div_30_ng_template_4_Template, 1, 0, "ng-template", null, 61, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplateRefExtractor"]);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 63);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 62);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7);
 
@@ -1776,9 +1776,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 64);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 63);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "i", 65);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "i", 64);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AppComponent_div_30_Template_i_click_9_listener() {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r29);
@@ -1794,7 +1794,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "div", 66);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "div", 65);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AppComponent_div_30_Template_div_click_10_listener() {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r29);
@@ -1806,7 +1806,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           return ctx_r30.deletPage(j_r18);
         });
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "i", 67);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "i", 66);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1830,9 +1830,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function AppComponent_div_32_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 70);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 69);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "span", 71);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "span", 70);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
 
@@ -1852,7 +1852,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function AppComponent_option_66_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "option", 72);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "option", 71);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
 
@@ -1872,9 +1872,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function AppComponent_div_67_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 70);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 69);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "span", 71);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "span", 70);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
 
@@ -1896,7 +1896,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 12);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h6", 73);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h6", 72);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
 
@@ -1916,9 +1916,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function AppComponent_div_91_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 70);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 69);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "span", 71);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "span", 70);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
 
@@ -1940,7 +1940,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 12);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h6", 73);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h6", 72);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
 
@@ -1986,7 +1986,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           var _this = this;
 
           this.loading = null;
-          this.loading2 = null; // localStorage.setItem("paramsLoading" , "false");s
+          this.loading2 = null; // localStorage.setItem("paramsLoading" , "false");
 
           if (localStorage.getItem("paramsLoading") == "true") {
             document.getElementById("_parmsID").style.display = "block";
@@ -2110,6 +2110,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           var _this4 = this;
 
           localStorage.setItem("paramsLoading", "true");
+          document.getElementById("loaderStatic").className = 'spinner-border spinner-border-sm';
+          document.getElementById("loaderStatic").innerHTML = "";
+          document.getElementById("loaderServer").innerHTML = "<i class=\"fas fa-pause\"></i>";
+          document.getElementById("loaderServer").className = '';
           document.getElementById("_parmsID").style.display = "block";
           this.staticServ.generate().subscribe(function (data) {
             console.log(data);
@@ -2127,6 +2131,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                 if (data['status'] == true) {
                   document.getElementById("loaderServer").className = '';
                   document.getElementById("loaderServer").innerHTML = "<i class=\"fas fa-check\"></i>";
+                  localStorage.setItem("paramsLoading", "false");
                 }
               }, function (err) {
                 console.log(err);
@@ -2182,9 +2187,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       type: AppComponent,
       selectors: [["", 8, "app-root"]],
       attrs: _c0,
-      decls: 135,
+      decls: 134,
       vars: 12,
-      consts: [[1, "app-headerv2"], [3, "activate"], [1, "app-footer"], [1, "admin"], ["id", "gbl_settings", 1, "gbl-settings", "posR"], ["id", "btn_settings", 1, "btn-settings"], [1, "fas", "fa-cogs", "text-white", "size13"], [1, "panel-settings"], [1, "popup__header"], [1, "row", "mrg-b2"], [1, "col-lg-12", "border-bottom", "pd-b2"], [1, "size19", "Roboto-medium"], [1, "row"], [1, "col-lg-12"], [1, "accordion"], [1, "row", "panel"], [1, "col-md-12", "pd-t2", "pd-b2"], [1, "col-md-12", "pd-t2"], ["class", "d-flex", 4, "ngFor", "ngForOf"], ["class", "spinner-border", "role", "status", 4, "ngIf"], [1, "row", "pd-b1"], ["type", "submit", "data-form", "adding", 1, "btn-action-access", "nw-btn", "nw-btn-s", "nw-btn-info", "w-100", 3, "click"], [1, "col-lg-12", "pt-3", "text-center"], [1, "col-11", "nw-btn", "nw-btn-sm", 3, "click"], [1, "col-11", "btn-dark", 3, "click"], ["id", "adding", 1, "popup"], [1, "popup__dialog"], [1, "fix__custom__popup"], [1, "popup__content"], [1, "row", "mrg-b4", "pd-b2", "line-hr-bottom"], [1, "row", "mrg-b0", "line-hr-bottom"], [1, "col-lg-12", "mrg-t0", "mrg-b0"], ["type", "yexy", "placeholder", "Name", 1, "form-control", 3, "ngModel", "ngModelChange"], ["type", "yexy", "placeholder", "Href", 1, "form-control", 3, "ngModel", "ngModelChange"], ["id", "inlineFormCustomSelectPref", 1, "custom-select", "my-1", "mr-sm-2", 3, "ngModel", "ngModelChange"], [3, "value", 4, "ngFor", "ngForOf"], [1, "popup__footer", "pd-t1"], ["class", "row", 4, "ngIf"], [1, "col-lg-12", "pd-b1", "pd-t1", "text-right"], [1, "nw-btn", "nw-btn-sm", "nw-btn-outline-primary", "close-popup", 3, "click"], [1, "nw-btn", "nw-btn-sm", "nw-btn-primary", 3, "click"], ["id", "updating", 1, "popup"], ["id", "loaderDiv", 1, "pre-loader"], [1, "loader"], [1, "size25", "title-2", "text-loader", "text-center"], ["id", "css-modal", 1, "shadow", "p-3", "px-0", "mb-5", "bg-white", "rounded"], ["id", "modal", "type", "checkbox", "checked", "", 1, "css-modal-check", "cong-cls"], [1, "css-modal"], ["for", "css-modal", 1, "close", 3, "click"], ["id", "overlay"], ["id", "_parmsID", 1, "_parms", 2, "display", "none"], [1, "card", "card-1"], [1, "card-title", "p-3"], [1, "fas", "fa-file-code"], ["id", "btns_parms d-flex", 1, "px-3s"], ["type", "button", "disabled", "", 1, "btn", "btn-primary", "mx-2", "col-5"], ["id", "loaderStatic", "role", "status", "aria-hidden", "true", 1, "spinner-border", "spinner-border-sm"], ["id", "loaderServer"], [1, "fas", "fa-pause"], [1, "d-flex"], [1, "col-md-8"], [4, "ngIf", "ngIfElse"], ["noCheked", ""], [1, "mrg-l2", "size15"], [1, "col-md-1"], [1, "fas", "fa-pencil-alt", 2, "color", "blue", 3, "click"], [1, "col-md-1", 3, "click"], [1, "far", "fa-trash-alt", 2, "color", "red"], ["type", "checkbox", "checked", "", "data-toggle", "toggle", 3, "change"], ["type", "checkbox", "data-toggle", "toggle", 3, "change"], ["role", "status", 1, "spinner-border"], [1, "sr-only"], [3, "value"], [2, "color", "red"]],
+      consts: [[1, "app-headerv2"], [3, "activate"], [1, "app-footer"], [1, "admin"], ["id", "gbl_settings", 1, "gbl-settings", "posR"], ["id", "btn_settings", 1, "btn-settings"], [1, "fas", "fa-cogs", "text-white", "size13"], [1, "panel-settings"], [1, "popup__header"], [1, "row", "mrg-b2"], [1, "col-lg-12", "border-bottom", "pd-b2"], [1, "size19", "Roboto-medium"], [1, "row"], [1, "col-lg-12"], [1, "accordion"], [1, "row", "panel"], [1, "col-md-12", "pd-t2", "pd-b2"], [1, "col-md-12", "pd-t2"], ["class", "d-flex", 4, "ngFor", "ngForOf"], ["class", "spinner-border", "role", "status", 4, "ngIf"], [1, "row", "pd-b1"], ["type", "submit", "data-form", "adding", 1, "btn-action-access", "nw-btn", "nw-btn-s", "nw-btn-info", "w-100", 3, "click"], [1, "col-lg-12", "pt-3", "text-center"], [1, "col-11", "nw-btn", "nw-btn-sm", 3, "click"], [1, "col-11", "btn-dark", 3, "click"], ["id", "adding", 1, "popup"], [1, "popup__dialog"], [1, "fix__custom__popup"], [1, "popup__content"], [1, "row", "mrg-b4", "pd-b2", "line-hr-bottom"], [1, "row", "mrg-b0", "line-hr-bottom"], [1, "col-lg-12", "mrg-t0", "mrg-b0"], ["type", "yexy", "placeholder", "Name", 1, "form-control", 3, "ngModel", "ngModelChange"], ["type", "yexy", "placeholder", "Href", 1, "form-control", 3, "ngModel", "ngModelChange"], ["id", "inlineFormCustomSelectPref", 1, "custom-select", "my-1", "mr-sm-2", 3, "ngModel", "ngModelChange"], [3, "value", 4, "ngFor", "ngForOf"], [1, "popup__footer", "pd-t1"], ["class", "row", 4, "ngIf"], [1, "col-lg-12", "pd-b1", "pd-t1", "text-right"], [1, "nw-btn", "nw-btn-sm", "nw-btn-outline-primary", "close-popup", 3, "click"], [1, "nw-btn", "nw-btn-sm", "nw-btn-primary", 3, "click"], ["id", "updating", 1, "popup"], ["id", "loaderDiv", 1, "pre-loader"], [1, "loader"], [1, "size25", "title-2", "text-loader", "text-center"], ["id", "css-modal", 1, "shadow", "p-3", "px-0", "mb-5", "bg-white", "rounded"], ["id", "modal", "type", "checkbox", "checked", "", 1, "css-modal-check", "cong-cls"], [1, "css-modal"], ["for", "css-modal", 1, "close", 3, "click"], ["id", "overlay"], ["id", "_parmsID", 1, "_parms", 2, "display", "none"], [1, "card", "card-1"], [1, "card-title", "p-3"], [1, "fas", "fa-file-code"], ["id", "btns_parms d-flex", 1, "px-3s"], ["type", "button", "disabled", "", 1, "btn", "btn-primary", "mx-2", "col-5"], ["id", "loaderStatic", "role", "status", "aria-hidden", "true", 1, ""], ["id", "loaderServer"], [1, "d-flex"], [1, "col-md-8"], [4, "ngIf", "ngIfElse"], ["noCheked", ""], [1, "mrg-l2", "size15"], [1, "col-md-1"], [1, "fas", "fa-pencil-alt", 2, "color", "blue", 3, "click"], [1, "col-md-1", 3, "click"], [1, "far", "fa-trash-alt", 2, "color", "red"], ["type", "checkbox", "checked", "", "data-toggle", "toggle", 3, "change"], ["type", "checkbox", "data-toggle", "toggle", 3, "change"], ["role", "status", 1, "spinner-border"], [1, "sr-only"], [3, "value"], [2, "color", "red"]],
       template: function AppComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "html");
@@ -2675,13 +2680,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](131, "button", 55);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](132, "span", 57);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](132, "span", 57);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](133, "i", 58);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](134, " Server Side... ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](133, " Server Side... ");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -14855,7 +14856,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   function srcAppPagesContactJsonFilesAppBlogComponentv15Json(module) {
-    module.exports = JSON.parse("{\"title\":\"Contact us\"}");
+    module.exports = JSON.parse("{\"title\":\"Contact us V2\"}");
     /***/
   },
 
@@ -15288,7 +15289,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   function srcAppPagesHomeJsonFilesAppBlogComponentv8Json(module) {
-    module.exports = JSON.parse("{\"link_image\":\"https://app.cheetaho.com/storage/2020/07/2971/d5467a9d-4f27-41cc-a753-04778da94a2a/optimized/photo-1523821741446-edb2b68bb7a0.\",\"title\":\"MARADONA\",\"sub_title\":\"Welcome to this new features\",\"text_button\":\"start building\",\"link_button\":\"https://www.ebay.com\"}");
+    module.exports = JSON.parse("{\"link_image\":\"https://app.cheetaho.com/storage/2020/07/2971/c3d5bb3f-0128-4657-a75f-457d20c307d4/optimized/photo-1523821741446-edb2b68bb7a0.\",\"title\":\"MARADONA V2\",\"sub_title\":\"Welcome to this new features\",\"text_button\":\"start building\",\"link_button\":\"https://www.ebay.com\"}");
     /***/
   },
 
