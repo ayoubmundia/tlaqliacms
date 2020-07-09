@@ -989,7 +989,7 @@ class AppComponent {
             document.getElementById("_parmsID").style.display = "block";
             this.displayProgressPub();
         }
-        else {
+        else if (localStorage.getItem("paramsLoading") == "false") {
             console.log("false");
             console.log(localStorage.getItem("paramsLoading"));
             console.log(localStorage.getItem("progress"));
@@ -1101,6 +1101,8 @@ class AppComponent {
                 this.staticServ.publish().subscribe((data) => {
                     console.log(data);
                     if (data['status'] == true) {
+                        localStorage.setItem("paramsLoading", "false");
+                        localStorage.removeItem("progress");
                         var element = document.getElementById("pgrsBar");
                         element.style.width = 100 + '%';
                         document.getElementById("publishingalert").innerHTML = '<span><i class="fa fa-check" aria-hidden="true"></i></span> Congratulations';
@@ -1113,8 +1115,6 @@ class AppComponent {
             `;
                         document.getElementById("loaderServer").className = '';
                         document.getElementById("loaderServer").innerHTML = `<i class="fas fa-check"></i>`;
-                        localStorage.setItem("paramsLoading", "false");
-                        localStorage.removeItem("progress");
                     }
                 }, err => {
                     console.log(err);

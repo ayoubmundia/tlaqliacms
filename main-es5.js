@@ -1994,7 +1994,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             console.log(localStorage.getItem("progress"));
             document.getElementById("_parmsID").style.display = "block";
             this.displayProgressPub();
-          } else {
+          } else if (localStorage.getItem("paramsLoading") == "false") {
             console.log("false");
             console.log(localStorage.getItem("paramsLoading"));
             console.log(localStorage.getItem("progress"));
@@ -2138,6 +2138,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                 console.log(data);
 
                 if (data['status'] == true) {
+                  localStorage.setItem("paramsLoading", "false");
+                  localStorage.removeItem("progress");
                   var element = document.getElementById("pgrsBar");
                   element.style.width = 100 + '%';
                   document.getElementById("publishingalert").innerHTML = '<span><i class="fa fa-check" aria-hidden="true"></i></span> Congratulations';
@@ -2145,8 +2147,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                   document.getElementById("prgsContent").innerHTML = "\n            <p class=\"px-3\">\n              Your static version of your website has been successfully generated. <br>\n              <b class='py-2'>website url <a href='https://www.tlaqliacms.tk/' target=\"_blank\">tlaqliacms</a></b>\n            </p>\n            ";
                   document.getElementById("loaderServer").className = '';
                   document.getElementById("loaderServer").innerHTML = "<i class=\"fas fa-check\"></i>";
-                  localStorage.setItem("paramsLoading", "false");
-                  localStorage.removeItem("progress");
                 }
               }, function (err) {
                 console.log(err);
