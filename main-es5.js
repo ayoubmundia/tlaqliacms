@@ -2175,6 +2175,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               localStorage.setItem("progress", i + '%');
             } else {
               localStorage.removeItem("progress");
+              localStorage.setItem("progress", '100%');
               clearInterval(counterBack);
             }
           }, 1900);
@@ -15262,7 +15263,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   function srcAppPagesHomeJsonFilesAppBlogComponentv8Json(module) {
-    module.exports = JSON.parse("{\"link_image\":\"https://app.cheetaho.com/storage/2020/07/2971/f02dba48-04c7-4c39-a8ea-f2e053e2c6d7/optimized/1594306372_ayoub-min.jpg\",\"title\":\"TATLAQLIACMS Edit1\",\"sub_title\":\"Welcome\",\"text_button\":\"ONLINE SITE\",\"link_button\":\"https://www.tlaqliacms.tk/\"}");
+    module.exports = JSON.parse("{\"link_image\":\"https://app.cheetaho.com/storage/2020/07/2971/84e40873-b0bc-41bf-896d-2e8f53e62edb/optimized/1594306372_ayoub-min.jpg\",\"title\":\"TEST\",\"sub_title\":\"Welcome\",\"text_button\":\"ONLINE SITE\",\"link_button\":\"https://www.tlaqliacms.tk/\"}");
     /***/
   },
 
